@@ -10,6 +10,8 @@ export const metadata = {
 
 export default async function LoginPage() {
   // const session = await auth();
+  const session = await auth()
+  console.log(session?.user?.email)
 
   // if (session) {
   //   redirect("/");
