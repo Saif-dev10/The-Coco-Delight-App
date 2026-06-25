@@ -198,7 +198,7 @@ export default function LoginClient() {
           <p className="text-center text-sm text-cacao/65 mt-10">
             New to Coco Delight?{" "}
             <Link
-              href="/signup"
+              href="/signIn"
               className="text-gold-dark font-medium hover:underline underline-offset-4"
             >
               Create an account
