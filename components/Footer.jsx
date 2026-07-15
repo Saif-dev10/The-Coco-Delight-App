@@ -41,7 +41,7 @@ export default function Footer() {
             </span>
             <p className="text-sm leading-relaxed font-light mb-6 max-w-xs">
               Handcrafted pastries and a working academy, built around one
-              standard of quality from our Lagos studio.
+              standard of quality from our Abuja studio.
             </p>
             <div className="flex items-center gap-4">
               {[Instagram, Facebook, Twitter].map((Icon, i) => (
@@ -102,7 +102,7 @@ export default function Footer() {
 
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4 pt-8 text-xs text-cream/45">
           <p>&copy; {new Date().getFullYear()} Coco Delight Patisserie &amp; Academy. All rights reserved.</p>
-          <p>Crafted with care in Lagos, Nigeria.</p>
+          <p>Crafted with care in Abuja, Nigeria.</p>
         </div>
       </div>
     </footer>

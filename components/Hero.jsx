@@ -24,7 +24,7 @@ export default function Hero() {
         <div className="grid lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-7 animate-fadeUp" style={{ animationDelay: "0.1s" }}>
             <span className="eyebrow text-gold mb-6 block">
-              Lagos &middot; Est. 2014 &middot; Patisserie &amp; Academy
+              {/* Abuja &middot; Est. 2014 &middot; Patisserie &amp; Academy */}
             </span>
             <h1 className="font-serif text-cream text-[2.75rem] sm:text-6xl lg:text-7xl leading-[1.05] mb-7">
               Pastry, made to be
@@ -37,10 +37,10 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap items-center gap-5 mb-14">
-              <a href="#contact" className="btn-primary">
+              <a href="contact" className="btn-primary">
                 Plan Your Order <ArrowRight size={16} />
               </a>
-              <a href="#academy" className="btn-outline-light">
+              <a href="academy" className="btn-outline-light">
                 Explore the Academy
               </a>
             </div>

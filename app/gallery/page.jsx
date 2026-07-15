@@ -37,12 +37,12 @@ const GALLERY_IMAGES = [
 
 const BEHIND_THE_SCENES = [
   {
-    img: "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=900&auto=format&fit=crop",
+    img: "https://img.magnific.com/premium-photo/loving-afro-american-couple-preparing-green-salad-dinner-together-loft-kitchen_116547-5825.jpg?uid=R243896195&amp;semt=ais_test_b&amp;w=740&amp;q=80",
     title: "Morning Prep",
     desc: "Dough laminated before sunrise. Butter folded, rested, folded again.",
   },
   {
-    img: "https://images.unsplash.com/photo-1583394293214-28ded15ee548?q=80&w=900&auto=format&fit=crop",
+    img: "https://img.magnific.com/premium-photo/hes-ready-cook-african-chef-holding-cooking-utensils_590464-33913.jpg?uid=R243896195&amp;semt=ais_test_b&amp;w=740&amp;q=80",
     title: "Piping Station",
     desc: "Buttercream roses, ruffles, and hand-piped details on every custom order.",
   },
@@ -62,17 +62,17 @@ const CLIENT_CELEBRATIONS = [
   {
     img: "https://images.unsplash.com/photo-1535254973040-607b474cb50d?q=80&w=900&auto=format&fit=crop",
     event: "Wedding Reception",
-    location: "Lagos Island",
+    location: "Abuja cakes",
     cake: "Four-tier fondant with sugar roses",
   },
   {
     img: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=900&auto=format&fit=crop",
     event: "Corporate Gala",
-    location: "Victoria Island",
+    location: "Corporate cakes",
     cake: "Dessert table for 200 guests",
   },
   {
-    img: "https://images.unsplash.com/photo-1530103862676-de3c9a59aa38?q=80&w=900&auto=format&fit=crop",
+    img: "https://img.magnific.com/premium-photo/easter-cake-with-raisins-candied-fruits-white-glaze-is-decorated-with-nuts-molecular-biscuit-meringue_79998-748.jpg?uid=R243896195&amp;semt=ais_test_b&amp;w=740&amp;q=80",
     event: "Milestone Birthday",
     location: "Ikoyi",
     cake: "Sculpted champagne bottle cake",

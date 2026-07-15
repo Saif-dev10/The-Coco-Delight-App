@@ -6,7 +6,7 @@ const TESTIMONIALS = [
     quote:
       "Our wedding cake was the most photographed thing at the reception. It tasted even better than it looked, and the team delivered three hours early so we never worried about timing.",
     name: "Amara O.",
-    role: "Bride, Lekki",
+    role: "Bride, Abuja",
   },
   {
     quote:
@@ -24,21 +24,21 @@ const TESTIMONIALS = [
 
 const STUDENT_STORIES = [
   {
-    img: "https://images.unsplash.com/photo-1607631568010-a87245c0daf8?q=80&w=600&auto=format&fit=crop",
+    img: "https://img.magnific.com/premium-photo/black-teenager-boy-outdoors-background_484921-68770.jpg?uid=R243896195&amp;semt=ais_test_b&amp;w=740&amp;q=80",
     name: "Chidinma E.",
     outcome: "Opened Whisk & Co. Bakery, 2023",
     quote:
       "The academy didn't just teach me recipes — it taught me costing, sourcing, and how to run a kitchen under pressure.",
   },
   {
-    img: "https://images.unsplash.com/photo-1583394293214-28ded15ee548?q=80&w=600&auto=format&fit=crop",
+    img: "https://img.magnific.com/premium-photo/black-teenager-boy-outdoors-background_484921-100509.jpg?uid=R243896195&amp;semt=ais_test_b&amp;w=740&amp;q=80",
     name: "Bayo S.",
     outcome: "Head Pastry Chef, Lagoon Hotel",
     quote:
       "I walked in knowing how to bake at home. I walked out knowing how to bake for two hundred covers a night.",
   },
   {
-    img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=600&auto=format&fit=crop",
+    img: "https://img.magnific.com/premium-photo/young-african-american-woman-smiles-brightly-wearing-blue-plaid-shirt-white-top_13339-361350.jpg?uid=R243896195&amp;semt=ais_test_b&amp;w=740&amp;q=80",
     name: "Ngozi P.",
     outcome: "Freelance Cake Designer",
     quote:

@@ -18,8 +18,8 @@ const FAQS = [
     category: "orders",
   },
   {
-    q: "Do you deliver outside Lagos?",
-    a: "Yes. We deliver across Lagos and nearby states for larger orders.",
+    q: "Do you deliver outside Abuja?",
+    a: "Yes. We deliver across Abuja and nearby states for larger orders.",
     category: "orders",
   },
   {
@@ -54,7 +54,7 @@ export default function FAQ() {
             alt="FAQ background"
           />
         </div>
-        <div className="absolute inset-0 bg-cacao/70" />
+        <div className="absolute inset-0 bg-cacao/10" />
         <div className="relative text-center text-cream px-6">
           <Reveal>
             <h1 className="font-serif text-5xl">FAQs</h1>

@@ -36,7 +36,7 @@ export default function About() {
                 Coco Delight began in a small home kitchen with one mixer, a
                 borrowed oven, and a belief that pastry should taste like
                 someone cared. Twelve years later, we run a working
-                patisserie and training academy from our Lagos studio, but the
+                patisserie and training academy from our Abuja studio, but the
                 belief hasn&apos;t changed.
               </p>
               <p className="text-cacao/75 leading-relaxed mb-9 font-light">
@@ -130,7 +130,7 @@ export default function About() {
             <Reveal>
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?q=80&w=1000&auto=format&fit=crop"
+                  src="https://img.magnific.com/premium-photo/hes-ready-cook-african-chef-holding-cooking-utensils_590464-33913.jpg?uid=R243896195&amp;semt=ais_test_b&amp;w=740&amp;q=80"
                   alt="Founder of Coco Delight in the kitchen"
                   className="rounded-sm w-full h-[520px] object-cover shadow-soft"
                 />
@@ -185,7 +185,7 @@ export default function About() {
             <Reveal>
               <div className="group overflow-hidden rounded-sm">
                 <img
-                  src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=1000&auto=format&fit=crop"
+                  src="https://img.magnific.com/free-photo/afro-couple-cooking-together-kitchen_58466-11683.jpg?uid=R243896195&amp;semt=ais_test_b&amp;w=740&amp;q=80"
                   alt="Baking station with mixing bowls and ingredients"
                   className="w-full h-80 object-cover transition-transform duration-700 group-hover:scale-105"
                 />

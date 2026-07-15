@@ -67,7 +67,7 @@ const PROCESS = [
     icon: Clock,
     step: "03",
     title: "Baking & Crafting",
-    desc: "We bake fresh, never frozen. Your order is prepared in our Lagos studio by the same team you meet during consultation.",
+    desc: "We bake fresh, never frozen. Your order is prepared in our Abuja studio by the same team you meet during consultation.",
   },
   {
     icon: Truck,
@@ -154,7 +154,7 @@ const FAQS = [
   {
     question: "Do you offer tastings before I commit?",
     answer:
-      "Yes. Tasting sessions are included with all Bespoke tier bookings and available as a paid add-on for Signature orders. We schedule tastings at our Lagos studio by appointment.",
+      "Yes. Tasting sessions are included with all Bespoke tier bookings and available as a paid add-on for Signature orders. We schedule tastings at our Abuja studio by appointment.",
   },
   {
     question: "Can you accommodate dietary restrictions?",
@@ -162,9 +162,9 @@ const FAQS = [
       "We offer eggless and nut-free options for most of our cake flavours. Please inform us of any allergies or dietary needs during your consultation so we can advise on the safest choices.",
   },
   {
-    question: "Do you deliver outside Lagos?",
+    question: "Do you deliver outside Abuja?",
     answer:
-      "We deliver across Lagos and neighbouring Ogun State. For deliveries outside this zone, please contact us to discuss logistics and packaging solutions.",
+      "We deliver across Abuja and neighbouring States. For deliveries outside this zone, please contact us to discuss logistics and packaging solutions.",
   },
   {
     question: "What is your cancellation policy?",

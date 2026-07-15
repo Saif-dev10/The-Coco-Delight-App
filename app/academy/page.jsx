@@ -2,6 +2,7 @@ import { CheckCircle2, ArrowRight, Clock, Users, Award, BookOpen, Calendar, MapP
 import Reveal from "@/components/Reveal";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 const PROGRAMS = [
   {
@@ -53,20 +54,20 @@ const INSTRUCTORS = [
   {
     name: "Chef Adeola Bakare",
     role: "Head Pastry Chef & Founder",
-    bio: "12 years in professional pastry. Trained in Paris and Lagos. Specialises in French patisserie and wedding cake design.",
-    img: "https://images.unsplash.com/photo-1583394293214-28ded15ee548?q=80&w=600&auto=format&fit=crop",
+    bio: "12 years in professional pastry. Trained in Abuja. Specialises in French patisserie and wedding cake design.",
+    img: "https://img.magnific.com/premium-photo/hes-ready-cook-african-chef-holding-cooking-utensils_590464-33913.jpg?uid=R243896195&amp;semt=ais_test_b&amp;w=740&amp;q=80",
   },
   {
     name: "Chef Emeka Okafor",
     role: "Senior Instructor · Viennoiserie",
-    bio: "Former head baker at a leading Lagos hotel. Expert in laminated doughs, sourdough, and artisan bread production.",
-    img: "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?q=80&w=600&auto=format&fit=crop",
+    bio: "Former head baker at a leading Abuja hotel. Expert in laminated doughs, sourdough, and artisan bread production.",
+    img: "https://img.magnific.com/premium-photo/working-kitchen-hotel-smiling-camera_777576-16967.jpg?uid=R243896195&amp;semt=ais_test_b&amp;w=740&amp;q=80",
   },
   {
     name: "Chef Ngozi Eze",
     role: "Instructor · Sugar Art & Design",
     bio: "Specialist in sugar flowers, fondant modelling, and event cake architecture. 8 years teaching advanced decoration.",
-    img: "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?q=80&w=600&auto=format&fit=crop",
+    img: "https://img.magnific.com/premium-photo/tv-cooking-show-restaurant-kitchen-portrait-black-female-chef-talks-teaches-how-cook-foo_1313853-102568.jpg?uid=R243896195&amp;semt=ais_test_b&amp;w=740&amp;q=80",
   },
 ];
 
@@ -75,13 +76,13 @@ const TESTIMONIALS = [
     quote: "I came in knowing how to bake a basic cake. I left with the confidence to quote, cost, and deliver a three-tier wedding cake. The mentorship didn't end when the course did.",
     name: "Chioma Nwosu",
     cohort: "Professional Diploma, 2024",
-    now: "Owner, Chioma's Cakes, Lekki",
+    now: "Owner, Chioma's Cakes, Wuse",
   },
   {
     quote: "The fact that we trained in a real working kitchen made all the difference. I understood pressure, timing, and quality control because I lived it every class.",
     name: "Tunde Balogun",
     cohort: "Advanced Cake Artistry, 2023",
-    now: "Pastry Chef, Radisson Blu, Lagos",
+    now: "Pastry Chef, Radisson Blu, Abuja",
   },
   {
     quote: "Weekend classes meant I could keep my job while learning. The instructors were patient, the ingredients were top-quality, and the community was incredible.",
@@ -159,7 +160,7 @@ export default function Academy() {
             <Reveal delay={150}>
               <div className="rounded-sm overflow-hidden mb-8 aspect-[16/10] shadow-card">
                 <img
-                  src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=1200&auto=format&fit=crop"
+                  src="https://img.magnific.com/premium-photo/loving-afro-american-couple-preparing-green-salad-dinner-together-loft-kitchen_116547-5825.jpg?uid=R243896195&amp;semt=ais_test_b&amp;w=740&amp;q=80"
                   alt="Students learning pastry techniques at Coco Delight Academy"
                   className="w-full h-full object-cover"
                 />
@@ -243,7 +244,7 @@ export default function Academy() {
                         </div>
                         <div className="flex items-center gap-2">
                           <MapPin size={14} className="text-gold-dark" />
-                          <span>Coco Delight Studio, Lagos</span>
+                          <span>Coco Delight Studio, Abuja</span>
                         </div>
                       </div>
                     </div>

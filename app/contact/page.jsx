@@ -75,7 +75,7 @@ export default function Contact() {
       <section className="relative h-[55vh] min-h-[440px] flex items-center justify-center overflow-hidden bg-cacao">
         <div className="absolute inset-0 opacity-15">
           <img
-            src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2000&auto=format&fit=crop"
+            src="https://img.magnific.com/premium-photo/loving-afro-american-couple-preparing-green-salad-dinner-together-loft-kitchen_116547-5825.jpg?uid=R243896195&amp;semt=ais_test_b&amp;w=740&amp;q=80"
             alt="Coco Delight kitchen"
             className="w-full h-full object-cover"
           />
@@ -387,7 +387,8 @@ export default function Contact() {
                   className="rounded-sm w-full h-64 object-cover shadow-soft"
                 />
                 <img
-                  src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?q=80&w=800&auto=format&fit=crop"
+                  // src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?q=80&w=800&auto=format&fit=crop"
+                  src="https://img.magnific.com/premium-photo/male-african-american-young-adult-cooking-meal-kitchen-generative-ai-aig23_31965-164008.jpg?uid=R243896195&amp;semt=ais_test_b&amp;w=740&amp;q=80"
                   alt="Chef preparing order"
                   className="rounded-sm w-full h-64 object-cover mt-10 shadow-soft"
                 />
@@ -402,7 +403,7 @@ export default function Contact() {
         <div className="max-w-site mx-auto px-6 lg:px-10">
           <Reveal className="text-center mb-12">
             <p className="text-xs uppercase tracking-[0.12em] text-cacao/40">
-              Trusted by leading brands and venues across Lagos
+              Trusted by leading brands and venues across Abujs
             </p>
           </Reveal>
           <Reveal>
