@@ -1,11 +1,40 @@
   "use client";
-import { User, Mail, Lock, ArrowRight, Eye } from "lucide-react";
+import { User, Mail, Lock, ArrowRight, Eye, EyeOff } from "lucide-react";
 import { signIn } from "next-auth/react";
 import Link from "next/link";
-
-
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function SignupPage() {
+  const router = useRouter();
+
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    password: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    console.log(formData);
+
+    // Later you can save this to MongoDB/Firebase/etc.
+
+    router.push("/dashboard");
+  };
+
+  const [showPassword, setShowPassword] = useState(false);
+
   return (
     <main className="min-h-screen grid lg:grid-cols-2 bg-cream">
       {/* Image side */}
@@ -62,7 +91,7 @@ export default function SignupPage() {
             delivery details again.
           </p>
 
-          <form className="space-y-5">
+          <form onSubmit={handleSubmit} className="space-y-5">
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
                 <label
@@ -78,11 +107,14 @@ export default function SignupPage() {
                   />
                   <input
                     id="firstName"
+                    name="firstName"
                     type="text"
                     required
                     autoComplete="given-name"
                     placeholder="Amara"
                     className="w-full bg-transparent border-b border-cacao/25 py-2.5 pl-7 focus:border-gold-dark outline-none transition-colors"
+                    value={formData.firstName}
+                    onChange={handleChange}
                   />
                 </div>
               </div>
@@ -96,11 +128,14 @@ export default function SignupPage() {
                 </label>
                 <input
                   id="lastName"
+                  name="lastName"
                   type="text"
                   required
                   autoComplete="family-name"
                   placeholder="Okafor"
                   className="w-full bg-transparent border-b border-cacao/25 py-2.5 focus:border-gold-dark outline-none transition-colors"
+                  value={formData.lastName}
+                  onChange={handleChange}
                 />
               </div>
             </div>
@@ -119,11 +154,14 @@ export default function SignupPage() {
                 />
                 <input
                   id="email"
+                  name="email"
                   type="email"
                   required
                   autoComplete="email"
                   placeholder="you@email.com"
                   className="w-full bg-transparent border-b border-cacao/25 py-2.5 pl-7 focus:border-gold-dark outline-none transition-colors"
+                  value={formData.email}
+                  onChange={handleChange}
                 />
               </div>
             </div>
@@ -137,11 +175,14 @@ export default function SignupPage() {
               </label>
               <input
                 id="phone"
+                name="phone"
                 type="tel"
                 required
                 autoComplete="tel"
                 placeholder="+234"
                 className="w-full bg-transparent border-b border-cacao/25 py-2.5 focus:border-gold-dark outline-none transition-colors"
+                value={formData.phone}
+                onChange={handleChange}
               />
             </div>
 
@@ -159,18 +200,22 @@ export default function SignupPage() {
                 />
                 <input
                   id="password"
-                  type="password"
+                  name="password"
+                  type={showPassword ? "text" : "password"}
                   required
                   autoComplete="new-password"
                   placeholder="At least 8 characters"
                   className="w-full bg-transparent border-b border-cacao/25 py-2.5 pl-7 pr-9 focus:border-gold-dark outline-none transition-colors"
+                  value={formData.password}
+                  onChange={handleChange}
                 />
                 <button
                   type="button"
-                  aria-label="Show password"
+                  aria-label={showPassword ? "Hide Password" : "Show Password"}
                   className="absolute right-0 top-1/2 -translate-y-1/2 text-cacao/40 hover:text-cacao/70 transition-colors"
+                  onClick={() => setShowPassword(!showPassword)}
                 >
-                  <Eye size={17} />
+                  {showPassword ? <Eye size={17} /> : <Eye size={17} />}
                 </button>
               </div>
               <p className="text-xs text-cacao/45 mt-2">

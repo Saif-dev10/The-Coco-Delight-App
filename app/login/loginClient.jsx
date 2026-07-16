@@ -1,10 +1,38 @@
 "use client";
 
-import { Lock, Mail, ArrowRight, Eye } from "lucide-react";
+import { User, Mail, Lock, ArrowRight, Eye, EyeOff } from "lucide-react";
 import Link from "next/link";
 import { signIn } from "next-auth/react";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function LoginClient() {
+  const router = useRouter();
+
+  const [formData, setFormData] = useState({
+    email: "",
+    password: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    console.log(formData);
+
+    // Later you can save this to MongoDB/Firebase/etc.
+
+    router.push("/dashboard");
+  };
+
+  const [showPassword, setShowPassword] = useState(false);
+
   return (
     <main className="min-h-screen grid lg:grid-cols-2 bg-cream">
       {/* Image side */}
@@ -66,7 +94,7 @@ export default function LoginClient() {
             designs.
           </p>
 
-          <form className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label
                 htmlFor="email"
@@ -83,11 +111,14 @@ export default function LoginClient() {
 
                 <input
                   id="email"
+                  name="email"
                   type="email"
                   required
                   autoComplete="email"
                   placeholder="you@email.com"
                   className="w-full bg-transparent border-b border-cacao/25 py-2.5 pl-7 focus:border-gold-dark outline-none transition-colors"
+                  value={FormData.email}
+                  onChange={handleChange}
                 />
               </div>
             </div>
@@ -117,19 +148,23 @@ export default function LoginClient() {
 
                 <input
                   id="password"
-                  type="password"
+                  name="password"
+                  type={showPassword ? "text" : "password"}
                   required
                   autoComplete="current-password"
                   placeholder="Enter your password"
                   className="w-full bg-transparent border-b border-cacao/25 py-2.5 pl-7 pr-9 focus:border-gold-dark outline-none transition-colors"
+                  value={formData.password}
+                  onChange={handleChange}
                 />
 
                 <button
                   type="button"
-                  aria-label="Show password"
+                  aria-label={showPassword ? "Hide Password" : "Show Password"}
                   className="absolute right-0 top-1/2 -translate-y-1/2 text-cacao/40 hover:text-cacao/70 transition-colors"
+                  onClick={() => setShowPassword(!showPassword)}
                 >
-                  <Eye size={17} />
+                  {showPassword ? <Eye size={17} /> : <Eye size={17} />}
                 </button>
               </div>
             </div>
