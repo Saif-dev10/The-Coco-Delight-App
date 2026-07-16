@@ -159,7 +159,7 @@ export default function Gallery() {
                 <br className="hidden sm:block" /> celebration cakes.
               </h2>
             </div>
-            <a href="#contact" className="btn-outline">
+            <a href="/contact" className="btn-outline">
               Request Full Menu
             </a>
           </Reveal>
@@ -403,7 +403,7 @@ export default function Gallery() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="/contact"
+                href="/signIn"
                 className="inline-flex items-center justify-center px-8 py-4 bg-gold-dark text-cacao font-medium rounded-sm hover:bg-gold transition-colors"
               >
                 Start a Custom Order

@@ -403,7 +403,7 @@ export default function Contact() {
         <div className="max-w-site mx-auto px-6 lg:px-10">
           <Reveal className="text-center mb-12">
             <p className="text-xs uppercase tracking-[0.12em] text-cacao/40">
-              Trusted by leading brands and venues across Abujs
+              Trusted by leading brands and venues across Abuja
             </p>
           </Reveal>
           <Reveal>

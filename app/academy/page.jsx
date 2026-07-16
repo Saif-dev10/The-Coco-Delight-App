@@ -44,7 +44,7 @@ const INCLUDES = [
 ];
 
 const STATS = [
-  { value: "600+", label: "Graduates Trained" },
+  { value: "30+", label: "Graduates Trained" },
   { value: "94%", label: "Employment Rate" },
   { value: "12", label: "Years of Teaching" },
   { value: "8:1", label: "Student-Chef Ratio" },
@@ -143,6 +143,10 @@ export default function Academy() {
                 job.
               </p>
 
+              <p className="text-cacao/75 leading-relaxed mb-9 font-light max-w-lg">
+                We believe in empowering individuals with valuable skills, which is why we offer practical trainings in baking, pastries, small chops production, and event decoration to help students become confident professionals and entrepreneurs.
+              </p>
+
               <ul className="space-y-4 mb-10">
                 {INCLUDES.map((item) => (
                   <li key={item} className="flex items-start gap-3">
@@ -152,7 +156,7 @@ export default function Academy() {
                 ))}
               </ul>
 
-              <a href="#contact" className="btn-primary">
+              <a href="signIn" className="btn-primary">
                 Enroll in a Program <ArrowRight size={16} />
               </a>
             </Reveal>
@@ -268,7 +272,7 @@ export default function Academy() {
                         <p className="text-xs text-cacao/50">3-part payment plan available</p>
                       </div>
                       <a
-                        href="/contact"
+                        href="/signIn"
                         className="mt-8 inline-flex items-center justify-center gap-2 px-6 py-3 bg-cacao text-cream rounded-sm text-sm font-medium hover:bg-cacao/90 transition-colors"
                       >
                         Enroll Now
@@ -450,7 +454,7 @@ export default function Academy() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="/contact"
+                href="/signIn"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gold-dark text-cacao font-medium rounded-sm hover:bg-gold transition-colors"
               >
                 Enroll Now

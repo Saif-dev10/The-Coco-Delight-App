@@ -141,7 +141,7 @@ const TESTIMONIALS = [
     quote:
       "We ordered dessert catering for a 200-person corporate gala. The presentation was flawless, the flavours were memorable, and the team was professional from start to finish.",
     name: "Ngozi Eze",
-    event: "Corporate Event, Victoria Island",
+    event: "Corporate Event, Wuse",
   },
 ];
 

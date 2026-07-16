@@ -33,11 +33,15 @@ export default function About() {
                 <br /> and an honest kitchen.
               </h2>
               <p className="text-cacao/75 leading-relaxed mb-5 font-light">
-                Coco Delight began in a small home kitchen with one mixer, a
+                {/* Coco Delight began in a small home kitchen with one mixer, a
                 borrowed oven, and a belief that pastry should taste like
                 someone cared. Twelve years later, we run a working
                 patisserie and training academy from our Abuja studio, but the
-                belief hasn&apos;t changed.
+                belief hasn&apos;t changed. */}
+
+                We are creating delightful experiences that inspire
+                At Coco-Delight Global Ventures, we are passionate about creating memorable experiences through premium cakes, pastries, small chops, catering services, trainings, and event decorations. We provide quality services that combine creativity, taste, elegance, and professionalism for every celebration and occasion.
+
               </p>
               <p className="text-cacao/75 leading-relaxed mb-9 font-light">
                 Every cake we send out and every student we train passes
@@ -54,7 +58,7 @@ export default function About() {
                   </p>
                 </div>
                 <div>
-                  <p className="font-serif text-3xl text-gold-dark mb-1">600+</p>
+                  <p className="font-serif text-3xl text-gold-dark mb-1">30+</p>
                   <p className="text-sm text-cacao/70">
                     Academy graduates now working professionally
                   </p>
@@ -150,7 +154,7 @@ export default function About() {
                 What started as weekend baking for friends quickly outgrew the family oven. Orders came in faster than flour could be sifted, and soon the dining table became a decorating station, the garage a cold room, and the living room a pickup point.
               </p>
               <p className="text-cacao/75 leading-relaxed mb-5 font-light">
-                Today, the same hands that piped those first buttercream roses now lead a team of twelve and mentor hundreds of students a year. The belief remains simple: if you respect the process, the product will speak for itself.
+                Today, the same hands that piped those first buttercream roses now lead a team and mentor many students a year. The belief remains simple: if you respect the process, the product will speak for itself.
               </p>
               <p className="text-cacao/75 leading-relaxed mb-8 font-light italic">
                 &ldquo;I never set out to build an empire. I set out to make a cake that tasted like Sunday afternoon at my grandmother&apos;s house.&rdquo;
@@ -305,13 +309,13 @@ export default function About() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="/contact"
+                href="/signIn"
                 className="inline-flex items-center justify-center px-8 py-4 bg-gold-dark text-cacao font-medium rounded-sm hover:bg-gold transition-colors"
               >
                 Order a Cake
               </a>
               <a
-                href="/academy"
+                href="/signIn"
                 className="inline-flex items-center justify-center px-8 py-4 border border-cream/30 text-cream font-medium rounded-sm hover:bg-cream/10 transition-colors"
               >
                 Join the Academy
